@@ -1,0 +1,74 @@
+.parent 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+}
+.form
+{
+    width: 500px;
+    border-radius : 20px;
+    border: 1px solid #c4bfbfff;
+    box-shadow : 3px 3px 3px 2px #6cf2f7ff;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap:22px;
+    padding : 20px 3px;
+}
+
+.d1,
+.d2,
+.d3,
+.d4
+{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items: start;
+   width: 77%;
+   gap:12px;
+}
+
+.title 
+{
+    text-align : center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #6cf2f7ff;
+     font-family: Catamaran , sans-serf;
+}
+
+.d1 label,
+.d2 label,
+.d3 label,
+.d4 label
+{
+    font-weight: 400;
+    font-size: 22px;
+    color: #6cf2f7ff;
+    font-family: Catamaran , sans-serf;
+}
+
+.d1 input,
+.d2 input,
+.d3 .input
+{
+    width: 100%;
+    outline: none;
+    border-bottom : 2px solid #6cf2f7ff ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+}
+
+.d4 .select
+{
+    width: 90%;
+    height: 50px;
+}
