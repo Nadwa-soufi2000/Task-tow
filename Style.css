@@ -6,6 +6,8 @@
     justify-content:center;
     align-items: center;
     padding-top: 50px;
+    padding-bottom : 50px;
+    background-color: #000000;
 }
 .form
 {
@@ -32,6 +34,38 @@
    align-items: start;
    width: 77%;
    gap:12px;
+}
+
+.d5
+{
+    position: relative;
+    width: 77%;
+    height: 50px;
+}
+
+.d5 label
+{
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: Catamaran , sans-serf;
+    width: 100%;
+    background-color: #6cf2f7ff;
+    border-radius: 13px;
+    position: absolute;
+    top: 0 ;
+    bottom: 0 ;
+    text-align: center;
+    padding-top: 6px;
+    color: #000000;
+    font-weight: 600;
+}
+.d5 input
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    outline: none;
 }
 
 .title 
@@ -65,10 +99,39 @@
     border-left: none;
     border-right: none;
     padding-left: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .d4 .select
 {
-    width: 90%;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    color: #6cf2f7ff;
+    border-radius: 10px;
+}
+
+.d6 
+{
+    width: 77%;
     height: 50px;
+    display:flex;
+    justify-content : start;
+    align-items: center;
+}
+
+.d6 .btn
+{
+    width: 140px;
+    height: 100%;
+    display:flex;
+    justify-content : center;
+    align-items: center;
+    background-color: #6cf2f7ff;
+    color: #000000;
+    font-weight: 600;
+    font-size : 20px;
+    font-family: Catamaran , sans-serf;
+    border-radius: 10px;
 }
