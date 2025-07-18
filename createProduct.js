@@ -6,6 +6,7 @@ let img = document.getElementById('img')
 let select = document.getElementById('select')
 let button = document.getElementById('submit')
 
+
 let nameEleValue = nameEle.value;
 let priceValue = price.value;
 let descValue = desc.value;
