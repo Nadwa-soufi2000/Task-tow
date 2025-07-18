@@ -44,7 +44,7 @@ button.onsubmit = (e) =>
 {
     e.preventDefault();
     let Form = new FormData()
-      Form.append("image" , imgFile)
+      Form.append("image" , imgFile.name)
     
     let obj = {
       "title" : nameEleValue ,
@@ -58,6 +58,7 @@ button.onsubmit = (e) =>
     axios.post("https://fakestoreapi.com/products" , obj)
     .then(response => {
         console.log(response.data)
+        alert('New product added sucessfully')
     })
     .catch(err => {
         console.log(err)
