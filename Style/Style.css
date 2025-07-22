@@ -142,7 +142,7 @@ nav
     display: flex ;
     align-items: center;
     justify-content : space-between;
-    padding: 10px 0px ;
+    padding: 15px 0px ;
     background-color: #191919;
     width:100%;
 }
@@ -156,6 +156,36 @@ nav ul
     gap: 10px;
 }
 
+nav ul.active
+{
+    display: flex ;
+    flex-direction:column;
+    align-items: center;
+    justify-content : center;
+    list-style : none;
+    gap: 10px;
+    width:100%;
+}
+nav ul.active li 
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: #6cf2f7ff;
+    font-family: Catamaran , sans-serf;
+}
+.p-icon.active2
+{
+  display:block;
+  width:100%;
+  display: flex ;
+  align-items: center;
+  justify-content : center;
+}
+.p-icon.active2 i 
+{
+  font-size: 15px;
+}
+
 nav ul li 
 {
     font-weight: 400;
@@ -166,15 +196,18 @@ nav ul li
 .menu
 {
    color: aqua;
-   width: 60px;
+   font-size:20px;
    padding-right: 60px;
    display:none;
+   position:fixed;
+   top:12px;
+   right:-20px;
 }
 
 .icon
 {
    color: aqua;
-   width: 60px;
+   font-size:20px;
    padding-right: 60px;
 }
 
@@ -347,7 +380,7 @@ nav ul li
   .section-img 
    {
     width: 100%;
-    height: 350px;
+    height: 320px;
    }
  .parent-parent-cards .h
    {
